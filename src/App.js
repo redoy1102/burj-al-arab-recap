@@ -11,14 +11,16 @@ import Login from './components/Login/Login';
 import Book from './components/Book/Book';
 import Header from './components/Header/Header';
 import PrivateRoute from "./components/PrivateRoute/PrivateRoute";
-
 export const UserContext = createContext();
 
 function App() {
     const [loggedInUser, setLoggedInUser] = useState({});
     return (
         <UserContext.Provider value={[loggedInUser,setLoggedInUser]}>
-            <p>Name: {loggedInUser.name}</p>
+            <div style={{textAlign: "center"}} >
+                <h1>Your Name: {loggedInUser.name}</h1>
+                <h2>Your E-mail Address: {loggedInUser.email}</h2>
+            </div>
             <Router>
                 <Header/>
                 <Switch>

@@ -9,11 +9,10 @@ const Login = () => {
     const [loggedInUser, setLoggedInUser] = useContext(UserContext)
     const history = useHistory();
     const location = useLocation();
-    const { from } = location.state || { from: { pathname: "/" } };
-
+    const {from} = location.state || {from: {pathname: "/"}};
 
     //fixing start duplicate app
-    if(firebase.apps.length === 0){
+    if (firebase.apps.length === 0) {
         firebase.initializeApp(firebaseConfig)
     }
     //fixing end duplicate app
@@ -22,9 +21,6 @@ const Login = () => {
         var provider = new firebase.auth.GoogleAuthProvider();
 
         firebase.auth().signInWithPopup(provider).then(function (result) {
-            // This gives you a Google Access Token. You can use it to access the Google API.
-            var token = result.credential.accessToken;
-
             // The signed-in user info.
             const {displayName, email} = result.user;
             const signedInUser = {name: displayName, email};
@@ -32,20 +28,14 @@ const Login = () => {
             history.replace(from);
 
         }).catch(function (error) {
-            // Handle Errors here.
-            var errorCode = error.code;
-            var errorMessage = error.message;
-            // The email of the user's account used.
-            var email = error.email;
-            // The firebase.auth.AuthCredential type that was used.
-            var credential = error.credential;
-            // ...
+            const errorMessage = error.message;
+            console.log(errorMessage);
         });
     }
     return (
-        <div>
-            <h1>This is Login</h1>
-            <button onClick={handleGoogleSignIn}>Google Sign In</button>
+        <div style={{textAlign: "center",marginTop: "30px"}}>
+            <button  onClick={handleGoogleSignIn}>Google Sign In</button>
+
         </div>
     );
 };

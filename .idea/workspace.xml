@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a958c38-ba0f-47ff-bade-de05158da6ed" name="Default Changelist" comment="firebase config issues solved">
+    <list default="true" id="8a958c38-ba0f-47ff-bade-de05158da6ed" name="Default Changelist" comment="Private Route Done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login/Login.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +55,8 @@
       <updated>1609000036672</updated>
       <workItem from="1609000039263" duration="1116000" />
       <workItem from="1609001441214" duration="1852000" />
-      <workItem from="1609058016759" duration="11200000" />
+      <workItem from="1609058016759" duration="11271000" />
+      <workItem from="1609072620188" duration="1345000" />
     </task>
     <task id="LOCAL-00001" summary="config added">
       <created>1609060955517</created>
@@ -70,7 +72,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609061504472</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Private Route Done">
+      <created>1609069386137</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1609069386137</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,10 +95,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="config added" />
     <MESSAGE value="firebase config issues solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="firebase config issues solved" />
+    <MESSAGE value="Private Route Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Private Route Done" />
   </component>
 </project>
