@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a958c38-ba0f-47ff-bade-de05158da6ed" name="Default Changelist" comment="firebase config issues solved">
-      <change afterPath="$PROJECT_DIR$/src/components/PrivateRoute/PrivateRoute.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Login/firebase.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login/firebase.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +54,7 @@
       <updated>1609000036672</updated>
       <workItem from="1609000039263" duration="1116000" />
       <workItem from="1609001441214" duration="1852000" />
-      <workItem from="1609058016759" duration="10402000" />
+      <workItem from="1609058016759" duration="11200000" />
     </task>
     <task id="LOCAL-00001" summary="config added">
       <created>1609060955517</created>
